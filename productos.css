@@ -1,0 +1,58 @@
+body{
+font-family:alice;
+
+background: -webkit-radial-gradient(#00b300, black);
+}
+
+.menu{
+list-style: none;
+padding:0;
+background:black;
+width:70%;
+margin: 30px;
+text:center;
+margin-left:100px;
+
+}
+
+
+
+.menu li{
+display: inline-block;
+text-aling:center;
+font-size:15px;
+}
+
+
+.menu li a{
+text-decoration: none;
+color: white;
+padding: 20px;
+display: block;
+margin-left:50px;
+}
+
+.menu li a:hover{
+background:red;
+display:block;
+line-heigth:20px;
+position: relative;
+text-align:center;
+text-decoration:none;
+-webkit-transition: all .5s ease;
+-moz-transition: all .5s ease;
+-ms-transition: all .5s ease;
+-o-transition: all .5s ease;
+transition: all .5s ease;
+}
+
+h1{
+font-size:60px;
+margin:15%;
+}
+
+
+
+
+
+
